@@ -531,7 +531,7 @@ angular.module('myModule', ['Devise']).
 
         // Also you can change host URL for backend calls
         // (for example if it's on another server than your angular app)
-        AuthProvider.baseUrl('http://localhost:3000');
+        AuthProvider.baseUrl('http://localhost:8080');
 
         // Customize user parsing
         // NOTE: **MUST** return a truth-y expression
